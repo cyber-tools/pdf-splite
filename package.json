@@ -28,5 +28,9 @@
     "progress": "^2.0.3"
   },
   "devDependencies": {},
-  "bin": "index.js"
+  "bin": "index.js",
+  "repository": {
+    "type": "github.com",
+    "url": "https://github.com/cyber-tools/pdf-splite.git"
+  }
 }
