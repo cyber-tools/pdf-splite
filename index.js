@@ -9,6 +9,11 @@ program
   .version(json.version);
 
 program
+  .command("all")
+  .description("将当前目录中所有匹配到的pdf全部进行切分")
+  .action(require("@/actions/splite-all"));
+
+program
   .command("single <source>", { isDefault: true })
   .description("将指定的pdf文件按页数分裂")
   .action(require("@/actions/splite-single"));
