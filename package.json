@@ -7,9 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "pdf",
     "cli",
     "node",
     "cyber",
+    "splite",
     "shicheng.yu"
   ],
   "author": "",
